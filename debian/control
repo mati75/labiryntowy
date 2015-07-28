@@ -1,0 +1,19 @@
+Source: fonts-labiryntowy
+Section: non-free/fonts
+Priority: optional
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Mateusz Łukasik <mati75@linuxmint.pl>
+Build-Depends: debhelper (>= 9), doc-base
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-fonts/labiryntowy/
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-fonts/labiryntowy.git/
+Homepage: http://alfabet-ozdobny.appspot.com/?str=labiryntowy
+
+Package: fonts-labiryntowy
+Architecture: all
+Depends: ${misc:Depends}
+Description: Artificial font consisting of vertical and horizontal bars
+ Labiryntowy was created as a practical realization of the
+ labyrinth alphabet idea. This font contains over 300 ligatures and
+ most of the characters needed to write the titles, names and
+ monograms.

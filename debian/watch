@@ -1,0 +1,4 @@
+version=3
+
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/Labiryntowy-$1\.tar\.gz/ \
+  https://github.com/texrg/Labiryntowy/tags .*/v?(\d\S*)\.tar\.gz
